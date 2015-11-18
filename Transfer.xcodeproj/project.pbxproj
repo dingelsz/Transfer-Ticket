@@ -7,13 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		923025B2189C529B002F9D17 /* final.png in Resources */ = {isa = PBXBuildFile; fileRef = 923025AD189C529B002F9D17 /* final.png */; };
+		923025B3189C529B002F9D17 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 923025AE189C529B002F9D17 /* first.png */; };
+		923025B4189C529B002F9D17 /* good.png in Resources */ = {isa = PBXBuildFile; fileRef = 923025AF189C529B002F9D17 /* good.png */; };
+		923025B5189C529B002F9D17 /* welcome.png in Resources */ = {isa = PBXBuildFile; fileRef = 923025B0189C529B002F9D17 /* welcome.png */; };
+		923025B6189C529B002F9D17 /* wrongWay.png in Resources */ = {isa = PBXBuildFile; fileRef = 923025B1189C529B002F9D17 /* wrongWay.png */; };
+		923298871917EB2E00708BC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 923298861917EB2E00708BC0 /* Main.storyboard */; };
+		9232988D1917EF2D00708BC0 /* Prosto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9232988C1917EF2D00708BC0 /* Prosto.ttf */; };
+		9246329D1919AA45006137EB /* ZDColorPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9246329C1919AA45006137EB /* ZDColorPickerController.m */; };
+		924632A11919B8E7006137EB /* ZDColorOrLetterPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 924632A01919B8E7006137EB /* ZDColorOrLetterPicker.m */; };
+		924632A41919DBF0006137EB /* ZDLetterPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 924632A31919DBF0006137EB /* ZDLetterPicker.m */; };
+		925C344D1880B118000A7343 /* ZDColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 925C344C1880B118000A7343 /* ZDColor.m */; };
+		925C34501880B307000A7343 /* ZDTransferBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 925C344F1880B307000A7343 /* ZDTransferBook.m */; };
+		925C34531880B43C000A7343 /* ZDTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 925C34521880B43C000A7343 /* ZDTableView.m */; };
 		925EB68B187170F60050C8F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 925EB68A187170F60050C8F3 /* Foundation.framework */; };
 		925EB68D187170F60050C8F3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 925EB68C187170F60050C8F3 /* CoreGraphics.framework */; };
 		925EB68F187170F60050C8F3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 925EB68E187170F60050C8F3 /* UIKit.framework */; };
 		925EB695187170F60050C8F3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 925EB693187170F60050C8F3 /* InfoPlist.strings */; };
 		925EB697187170F60050C8F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 925EB696187170F60050C8F3 /* main.m */; };
 		925EB69B187170F60050C8F3 /* ZDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 925EB69A187170F60050C8F3 /* ZDAppDelegate.m */; };
-		925EB69E187170F60050C8F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 925EB69C187170F60050C8F3 /* Main.storyboard */; };
 		925EB6A1187170F60050C8F3 /* ZDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 925EB6A0187170F60050C8F3 /* ZDViewController.m */; };
 		925EB6A3187170F60050C8F3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 925EB6A2187170F60050C8F3 /* Images.xcassets */; };
 		925EB6AA187170F70050C8F3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 925EB6A9187170F70050C8F3 /* XCTest.framework */; };
@@ -21,6 +33,14 @@
 		925EB6AC187170F70050C8F3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 925EB68E187170F60050C8F3 /* UIKit.framework */; };
 		925EB6B4187170F70050C8F3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 925EB6B2187170F70050C8F3 /* InfoPlist.strings */; };
 		925EB6B6187170F70050C8F3 /* TransferTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 925EB6B5187170F70050C8F3 /* TransferTests.m */; };
+		9273D584191DA6A000AC7BE1 /* ZDHelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9273D583191DA6A000AC7BE1 /* ZDHelpViewController.m */; };
+		9277E4B8191C76EA0007236D /* ZDFlatButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9277E4B7191C76EA0007236D /* ZDFlatButton.m */; };
+		927D599D187291FF00FA36B9 /* ZDTransferTicket.m in Sources */ = {isa = PBXBuildFile; fileRef = 927D599C187291FF00FA36B9 /* ZDTransferTicket.m */; };
+		927D59A01872947B00FA36B9 /* ZDDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 927D599F1872947B00FA36B9 /* ZDDate.m */; };
+		9283292D187CFE130070620C /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 9283292C187CFE130070620C /* settings.png */; };
+		9283293A187D0FFB0070620C /* ZDTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92832939187D0FFB0070620C /* ZDTableViewController.m */; };
+		9283293F187D33530070620C /* ZDTableViewPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 9283293E187D33530070620C /* ZDTableViewPicker.m */; };
+		92832943187E9D7B0070620C /* Data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 92832942187E9D7B0070620C /* Data.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +54,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		923025AD189C529B002F9D17 /* final.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = final.png; path = tut/final.png; sourceTree = SOURCE_ROOT; };
+		923025AE189C529B002F9D17 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = first.png; path = tut/first.png; sourceTree = SOURCE_ROOT; };
+		923025AF189C529B002F9D17 /* good.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = good.png; path = tut/good.png; sourceTree = SOURCE_ROOT; };
+		923025B0189C529B002F9D17 /* welcome.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = welcome.png; path = tut/welcome.png; sourceTree = SOURCE_ROOT; };
+		923025B1189C529B002F9D17 /* wrongWay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = wrongWay.png; path = tut/wrongWay.png; sourceTree = SOURCE_ROOT; };
+		923298861917EB2E00708BC0 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		9232988C1917EF2D00708BC0 /* Prosto.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Prosto.ttf; sourceTree = "<group>"; };
+		9246329B1919AA45006137EB /* ZDColorPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDColorPickerController.h; sourceTree = "<group>"; };
+		9246329C1919AA45006137EB /* ZDColorPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDColorPickerController.m; sourceTree = "<group>"; };
+		9246329F1919B8E7006137EB /* ZDColorOrLetterPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDColorOrLetterPicker.h; sourceTree = "<group>"; };
+		924632A01919B8E7006137EB /* ZDColorOrLetterPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDColorOrLetterPicker.m; sourceTree = "<group>"; };
+		924632A21919DBF0006137EB /* ZDLetterPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDLetterPicker.h; sourceTree = "<group>"; };
+		924632A31919DBF0006137EB /* ZDLetterPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDLetterPicker.m; sourceTree = "<group>"; };
+		924632A51919E583006137EB /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = SOURCE_ROOT; };
+		925C344B1880B118000A7343 /* ZDColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDColor.h; sourceTree = "<group>"; };
+		925C344C1880B118000A7343 /* ZDColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDColor.m; sourceTree = "<group>"; };
+		925C344E1880B307000A7343 /* ZDTransferBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDTransferBook.h; sourceTree = "<group>"; };
+		925C344F1880B307000A7343 /* ZDTransferBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDTransferBook.m; sourceTree = "<group>"; };
+		925C34511880B43C000A7343 /* ZDTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDTableView.h; sourceTree = "<group>"; };
+		925C34521880B43C000A7343 /* ZDTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDTableView.m; sourceTree = "<group>"; };
 		925EB687187170F60050C8F3 /* Transfer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Transfer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		925EB68A187170F60050C8F3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		925EB68C187170F60050C8F3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -44,7 +84,6 @@
 		925EB698187170F60050C8F3 /* Transfer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Transfer-Prefix.pch"; sourceTree = "<group>"; };
 		925EB699187170F60050C8F3 /* ZDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZDAppDelegate.h; sourceTree = "<group>"; };
 		925EB69A187170F60050C8F3 /* ZDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZDAppDelegate.m; sourceTree = "<group>"; };
-		925EB69D187170F60050C8F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		925EB69F187170F60050C8F3 /* ZDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZDViewController.h; sourceTree = "<group>"; };
 		925EB6A0187170F60050C8F3 /* ZDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZDViewController.m; sourceTree = "<group>"; };
 		925EB6A2187170F60050C8F3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -53,6 +92,20 @@
 		925EB6B1187170F70050C8F3 /* TransferTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TransferTests-Info.plist"; sourceTree = "<group>"; };
 		925EB6B3187170F70050C8F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		925EB6B5187170F70050C8F3 /* TransferTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransferTests.m; sourceTree = "<group>"; };
+		9273D582191DA6A000AC7BE1 /* ZDHelpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDHelpViewController.h; sourceTree = "<group>"; };
+		9273D583191DA6A000AC7BE1 /* ZDHelpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDHelpViewController.m; sourceTree = "<group>"; };
+		9277E4B6191C76EA0007236D /* ZDFlatButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDFlatButton.h; sourceTree = "<group>"; };
+		9277E4B7191C76EA0007236D /* ZDFlatButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDFlatButton.m; sourceTree = "<group>"; };
+		927D599B187291FF00FA36B9 /* ZDTransferTicket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDTransferTicket.h; sourceTree = "<group>"; };
+		927D599C187291FF00FA36B9 /* ZDTransferTicket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDTransferTicket.m; sourceTree = "<group>"; };
+		927D599E1872947B00FA36B9 /* ZDDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDDate.h; sourceTree = "<group>"; };
+		927D599F1872947B00FA36B9 /* ZDDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDDate.m; sourceTree = "<group>"; };
+		9283292C187CFE130070620C /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = settings.png; path = ../settings.png; sourceTree = "<group>"; };
+		92832938187D0FFB0070620C /* ZDTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZDTableViewController.h; path = ../ZDTableViewController.h; sourceTree = "<group>"; };
+		92832939187D0FFB0070620C /* ZDTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZDTableViewController.m; path = ../ZDTableViewController.m; sourceTree = "<group>"; };
+		9283293D187D33530070620C /* ZDTableViewPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDTableViewPicker.h; sourceTree = "<group>"; };
+		9283293E187D33530070620C /* ZDTableViewPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDTableViewPicker.m; sourceTree = "<group>"; };
+		92832942187E9D7B0070620C /* Data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Data.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +132,98 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		923025AC189C5289002F9D17 /* Tutos */ = {
+			isa = PBXGroup;
+			children = (
+				923025AE189C529B002F9D17 /* first.png */,
+				923025AD189C529B002F9D17 /* final.png */,
+				923025AF189C529B002F9D17 /* good.png */,
+				923025B0189C529B002F9D17 /* welcome.png */,
+				923025B1189C529B002F9D17 /* wrongWay.png */,
+			);
+			name = Tutos;
+			sourceTree = "<group>";
+		};
+		923025B7189C52B4002F9D17 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				927D599B187291FF00FA36B9 /* ZDTransferTicket.h */,
+				927D599C187291FF00FA36B9 /* ZDTransferTicket.m */,
+				927D599E1872947B00FA36B9 /* ZDDate.h */,
+				927D599F1872947B00FA36B9 /* ZDDate.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		923025B8189C52BA002F9D17 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9277E4B6191C76EA0007236D /* ZDFlatButton.h */,
+				9277E4B7191C76EA0007236D /* ZDFlatButton.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		923025B9189C52BE002F9D17 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				923298861917EB2E00708BC0 /* Main.storyboard */,
+				925EB69F187170F60050C8F3 /* ZDViewController.h */,
+				925EB6A0187170F60050C8F3 /* ZDViewController.m */,
+				9246329F1919B8E7006137EB /* ZDColorOrLetterPicker.h */,
+				924632A01919B8E7006137EB /* ZDColorOrLetterPicker.m */,
+				9246329B1919AA45006137EB /* ZDColorPickerController.h */,
+				9246329C1919AA45006137EB /* ZDColorPickerController.m */,
+				924632A21919DBF0006137EB /* ZDLetterPicker.h */,
+				924632A31919DBF0006137EB /* ZDLetterPicker.m */,
+				9273D582191DA6A000AC7BE1 /* ZDHelpViewController.h */,
+				9273D583191DA6A000AC7BE1 /* ZDHelpViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		9232988A1917EF2D00708BC0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9283292C187CFE130070620C /* settings.png */,
+				924632A51919E583006137EB /* Default.png */,
+				9232988B1917EF2D00708BC0 /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9232988B1917EF2D00708BC0 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				9232988C1917EF2D00708BC0 /* Prosto.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		9246329E1919B8C8006137EB /* 1.0 */ = {
+			isa = PBXGroup;
+			children = (
+				92832938187D0FFB0070620C /* ZDTableViewController.h */,
+				92832939187D0FFB0070620C /* ZDTableViewController.m */,
+				9283293D187D33530070620C /* ZDTableViewPicker.h */,
+				9283293E187D33530070620C /* ZDTableViewPicker.m */,
+			);
+			name = 1.0;
+			sourceTree = "<group>";
+		};
+		925C34411880AA85000A7343 /* 2.0 */ = {
+			isa = PBXGroup;
+			children = (
+				925C344B1880B118000A7343 /* ZDColor.h */,
+				925C344C1880B118000A7343 /* ZDColor.m */,
+				925C344E1880B307000A7343 /* ZDTransferBook.h */,
+				925C344F1880B307000A7343 /* ZDTransferBook.m */,
+				925C34511880B43C000A7343 /* ZDTableView.h */,
+				925C34521880B43C000A7343 /* ZDTableView.m */,
+			);
+			name = 2.0;
+			sourceTree = "<group>";
+		};
 		925EB67E187170F60050C8F3 = {
 			isa = PBXGroup;
 			children = (
@@ -114,10 +259,12 @@
 			children = (
 				925EB699187170F60050C8F3 /* ZDAppDelegate.h */,
 				925EB69A187170F60050C8F3 /* ZDAppDelegate.m */,
-				925EB69C187170F60050C8F3 /* Main.storyboard */,
-				925EB69F187170F60050C8F3 /* ZDViewController.h */,
-				925EB6A0187170F60050C8F3 /* ZDViewController.m */,
+				923025B9189C52BE002F9D17 /* Controller */,
+				923025B8189C52BA002F9D17 /* View */,
+				923025B7189C52B4002F9D17 /* Model */,
 				925EB6A2187170F60050C8F3 /* Images.xcassets */,
+				9246329E1919B8C8006137EB /* 1.0 */,
+				925C34411880AA85000A7343 /* 2.0 */,
 				925EB691187170F60050C8F3 /* Supporting Files */,
 			);
 			path = Transfer;
@@ -126,7 +273,11 @@
 		925EB691187170F60050C8F3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				923025AC189C5289002F9D17 /* Tutos */,
+				927FC75D1891DA74006365C9 /* Icons */,
 				925EB692187170F60050C8F3 /* Transfer-Info.plist */,
+				9232988A1917EF2D00708BC0 /* Resources */,
+				92832942187E9D7B0070620C /* Data.plist */,
 				925EB693187170F60050C8F3 /* InfoPlist.strings */,
 				925EB696187170F60050C8F3 /* main.m */,
 				925EB698187170F60050C8F3 /* Transfer-Prefix.pch */,
@@ -150,6 +301,13 @@
 				925EB6B2187170F70050C8F3 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		927FC75D1891DA74006365C9 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Icons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,9 +355,12 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = ZD;
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = GnarWare;
 				TargetAttributes = {
+					925EB686187170F60050C8F3 = {
+						DevelopmentTeam = KS945UZ7HA;
+					};
 					925EB6A7187170F70050C8F3 = {
 						TestTargetID = 925EB686187170F60050C8F3;
 					};
@@ -229,9 +390,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				923025B2189C529B002F9D17 /* final.png in Resources */,
+				923298871917EB2E00708BC0 /* Main.storyboard in Resources */,
+				9283292D187CFE130070620C /* settings.png in Resources */,
+				923025B3189C529B002F9D17 /* first.png in Resources */,
+				9232988D1917EF2D00708BC0 /* Prosto.ttf in Resources */,
 				925EB6A3187170F60050C8F3 /* Images.xcassets in Resources */,
+				923025B4189C529B002F9D17 /* good.png in Resources */,
+				923025B6189C529B002F9D17 /* wrongWay.png in Resources */,
 				925EB695187170F60050C8F3 /* InfoPlist.strings in Resources */,
-				925EB69E187170F60050C8F3 /* Main.storyboard in Resources */,
+				923025B5189C529B002F9D17 /* welcome.png in Resources */,
+				92832943187E9D7B0070620C /* Data.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,9 +419,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				927D59A01872947B00FA36B9 /* ZDDate.m in Sources */,
+				9246329D1919AA45006137EB /* ZDColorPickerController.m in Sources */,
+				925C344D1880B118000A7343 /* ZDColor.m in Sources */,
+				9283293A187D0FFB0070620C /* ZDTableViewController.m in Sources */,
+				927D599D187291FF00FA36B9 /* ZDTransferTicket.m in Sources */,
 				925EB6A1187170F60050C8F3 /* ZDViewController.m in Sources */,
+				9273D584191DA6A000AC7BE1 /* ZDHelpViewController.m in Sources */,
+				924632A41919DBF0006137EB /* ZDLetterPicker.m in Sources */,
+				9283293F187D33530070620C /* ZDTableViewPicker.m in Sources */,
 				925EB69B187170F60050C8F3 /* ZDAppDelegate.m in Sources */,
+				925C34501880B307000A7343 /* ZDTransferBook.m in Sources */,
 				925EB697187170F60050C8F3 /* main.m in Sources */,
+				9277E4B8191C76EA0007236D /* ZDFlatButton.m in Sources */,
+				924632A11919B8E7006137EB /* ZDColorOrLetterPicker.m in Sources */,
+				925C34531880B43C000A7343 /* ZDTableView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,14 +464,6 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		925EB69C187170F60050C8F3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				925EB69D187170F60050C8F3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		925EB6B2187170F70050C8F3 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -306,7 +479,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -319,7 +491,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -337,6 +510,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "4808FB8F-0B16-4E0A-BA33-5D679BA4FBF0";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -345,7 +519,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -358,7 +531,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -369,6 +543,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PROVISIONING_PROFILE = "4808FB8F-0B16-4E0A-BA33-5D679BA4FBF0";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -379,10 +554,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Transfer/Transfer-Prefix.pch";
 				INFOPLIST_FILE = "Transfer/Transfer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -392,10 +572,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Transfer/Transfer-Prefix.pch";
 				INFOPLIST_FILE = "Transfer/Transfer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -403,7 +588,6 @@
 		925EB6BD187170F70050C8F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Transfer.app/Transfer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -426,7 +610,6 @@
 		925EB6BE187170F70050C8F3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Transfer.app/Transfer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -461,6 +644,7 @@
 				925EB6BB187170F70050C8F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		925EB6BC187170F70050C8F3 /* Build configuration list for PBXNativeTarget "TransferTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +653,7 @@
 				925EB6BE187170F70050C8F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

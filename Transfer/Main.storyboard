@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14A379b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="DaV-uw-eTv">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+    </dependencies>
+    <scenes>
+        <!--Main Screen-->
+        <scene sceneID="kAi-S4-QJY">
+            <objects>
+                <viewController id="xsq-bJ-V4e" userLabel="Main Screen" customClass="ZDViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="co0-76-ZHR"/>
+                        <viewControllerLayoutGuide type="bottom" id="XRP-il-9sb"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ccf-Ot-ByC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="T" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vi0-6B-l1X">
+                                <rect key="frame" x="20" y="61" width="280" height="357"/>
+                                <fontDescription key="fontDescription" name="OriyaSangamMN-Bold" family="Oriya Sangam MN" pointSize="300"/>
+                                <color key="textColor" red="0.99607849120000003" green="0.99215692280000001" blue="0.99215692280000001" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NR6-9G-TCU">
+                                <rect key="frame" x="20" y="356" width="280" height="37"/>
+                                <fontDescription key="fontDescription" name="OriyaSangamMN" family="Oriya Sangam MN" pointSize="26"/>
+                                <color key="textColor" red="0.99607849120000003" green="0.99215692280000001" blue="0.99215692280000001" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ys3-5T-2mD">
+                                <rect key="frame" x="270" y="430" width="30" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="30" id="SU1-l2-99r"/>
+                                    <constraint firstAttribute="height" constant="30" id="fYF-xP-fvl"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="settings.png" backgroundImage="settings.png"/>
+                                <connections>
+                                    <action selector="buttonSettingsPressed:" destination="xsq-bJ-V4e" eventType="touchUpInside" id="YmQ-8I-gbX"/>
+                                    <segue destination="ZKV-HD-o1u" kind="push" id="bFg-4b-xOf"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0039215688589999999" green="1" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="NR6-9G-TCU" secondAttribute="trailing" constant="20" id="0k8-aW-ibh"/>
+                            <constraint firstAttribute="bottom" secondItem="NR6-9G-TCU" secondAttribute="bottom" constant="87" id="4Wa-QQ-pSy"/>
+                            <constraint firstItem="vi0-6B-l1X" firstAttribute="leading" secondItem="ccf-Ot-ByC" secondAttribute="leading" constant="20" id="Joi-O9-4tN"/>
+                            <constraint firstAttribute="trailing" secondItem="ys3-5T-2mD" secondAttribute="trailing" constant="20" id="NVi-DT-zTe"/>
+                            <constraint firstItem="XRP-il-9sb" firstAttribute="top" secondItem="vi0-6B-l1X" secondAttribute="bottom" constant="62" id="VbA-c0-itl"/>
+                            <constraint firstItem="NR6-9G-TCU" firstAttribute="leading" secondItem="ccf-Ot-ByC" secondAttribute="leading" constant="20" id="X1G-hH-1Dc"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="vi0-6B-l1X" secondAttribute="trailing" constant="20" id="Xeq-pK-VtY"/>
+                            <constraint firstAttribute="trailing" secondItem="vi0-6B-l1X" secondAttribute="trailing" constant="20" id="fcB-12-EMp"/>
+                            <constraint firstItem="vi0-6B-l1X" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="ccf-Ot-ByC" secondAttribute="leading" constant="20" id="hdw-jj-zB8"/>
+                            <constraint firstItem="XRP-il-9sb" firstAttribute="top" secondItem="ys3-5T-2mD" secondAttribute="bottom" constant="20" id="l44-rY-ys6"/>
+                            <constraint firstItem="vi0-6B-l1X" firstAttribute="top" secondItem="ccf-Ot-ByC" secondAttribute="top" constant="61" id="mmr-GI-yZc"/>
+                            <constraint firstItem="NR6-9G-TCU" firstAttribute="top" secondItem="ccf-Ot-ByC" secondAttribute="top" constant="356" id="wVe-n2-6p6"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="zPk-uc-jkH" appends="YES" id="RWf-GI-TL7"/>
+                            <outletCollection property="gestureRecognizers" destination="289-1A-gYm" appends="YES" id="zMQ-xS-A5i"/>
+                        </connections>
+                    </view>
+                    <navigationItem key="navigationItem" id="Hrn-dq-JqS"/>
+                    <connections>
+                        <outlet property="backgroundView" destination="ccf-Ot-ByC" id="a0G-Gi-e1F"/>
+                        <outlet property="buttonSettings" destination="ys3-5T-2mD" id="BGm-uw-gHT"/>
+                        <outlet property="labelDate" destination="NR6-9G-TCU" id="lep-Zv-GSB"/>
+                        <outlet property="labelLetter" destination="vi0-6B-l1X" id="TJq-7c-Wts"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0oh-NV-19T" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="right" id="zPk-uc-jkH">
+                    <connections>
+                        <action selector="swipedRight:" destination="xsq-bJ-V4e" id="qy6-i5-t1f"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="left" id="289-1A-gYm">
+                    <connections>
+                        <action selector="swipedLeft:" destination="xsq-bJ-V4e" id="3EP-zz-5L6"/>
+                    </connections>
+                </swipeGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="698" y="-29"/>
+        </scene>
+        <!--Color Or Letter Picker-->
+        <scene sceneID="2Oi-zn-Kq5">
+            <objects>
+                <viewController id="ZKV-HD-o1u" customClass="ZDColorOrLetterPicker" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="8rL-uE-lco"/>
+                        <viewControllerLayoutGuide type="bottom" id="5RV-wo-ZWw"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="AYN-6c-WEW">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VMb-mA-6l0" customClass="ZDFlatButton">
+                                <rect key="frame" x="0.0" y="63" width="320" height="139"/>
+                                <fontDescription key="fontDescription" name="OriyaSangamMN" family="Oriya Sangam MN" pointSize="48"/>
+                                <state key="normal" title="Color">
+                                    <color key="titleColor" red="0.99215692280000001" green="0.99607849120000003" blue="0.99215692280000001" alpha="1" colorSpace="deviceRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BPp-sL-ywD" kind="push" id="F4h-R2-wZi"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P6p-N3-A94" customClass="ZDFlatButton">
+                                <rect key="frame" x="0.0" y="202" width="320" height="139"/>
+                                <fontDescription key="fontDescription" name="OriyaSangamMN" family="Oriya Sangam MN" pointSize="48"/>
+                                <state key="normal" title="Letter">
+                                    <color key="titleColor" red="0.99215692280000001" green="0.99607849120000003" blue="0.99215692280000001" alpha="1" colorSpace="deviceRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="cNP-Sg-gKp" kind="push" id="Tio-Nu-iDB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iz5-Tv-FvL" customClass="ZDFlatButton">
+                                <rect key="frame" x="0.0" y="341" width="320" height="139"/>
+                                <fontDescription key="fontDescription" name="OriyaSangamMN" family="Oriya Sangam MN" pointSize="48"/>
+                                <state key="normal" title="Help">
+                                    <color key="titleColor" red="0.99215692280000001" green="0.99607849120000003" blue="0.99215692280000001" alpha="1" colorSpace="deviceRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="xwH-Hd-xBK" kind="push" id="hHJ-so-LBB"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="P6p-N3-A94" firstAttribute="top" secondItem="VMb-mA-6l0" secondAttribute="bottom" id="1em-76-8Ga"/>
+                            <constraint firstItem="P6p-N3-A94" firstAttribute="leading" secondItem="AYN-6c-WEW" secondAttribute="leading" id="3y9-y9-9WA"/>
+                            <constraint firstAttribute="trailing" secondItem="VMb-mA-6l0" secondAttribute="trailing" id="4Hh-kH-JkH"/>
+                            <constraint firstItem="iz5-Tv-FvL" firstAttribute="leading" secondItem="AYN-6c-WEW" secondAttribute="leading" id="DXq-Es-Jdp"/>
+                            <constraint firstItem="iz5-Tv-FvL" firstAttribute="top" secondItem="P6p-N3-A94" secondAttribute="bottom" id="IES-G4-rR5"/>
+                            <constraint firstItem="VMb-mA-6l0" firstAttribute="top" secondItem="AYN-6c-WEW" secondAttribute="top" constant="63" id="P3i-ao-Mf2"/>
+                            <constraint firstItem="P6p-N3-A94" firstAttribute="top" secondItem="VMb-mA-6l0" secondAttribute="bottom" id="Sag-qs-KAC"/>
+                            <constraint firstItem="iz5-Tv-FvL" firstAttribute="top" secondItem="P6p-N3-A94" secondAttribute="bottom" id="T0B-Gk-E9Z"/>
+                            <constraint firstItem="P6p-N3-A94" firstAttribute="height" secondItem="VMb-mA-6l0" secondAttribute="height" id="bBx-7e-Sik"/>
+                            <constraint firstItem="P6p-N3-A94" firstAttribute="height" secondItem="iz5-Tv-FvL" secondAttribute="height" id="di5-dD-iYd"/>
+                            <constraint firstAttribute="trailing" secondItem="iz5-Tv-FvL" secondAttribute="trailing" id="epw-gQ-flG"/>
+                            <constraint firstItem="VMb-mA-6l0" firstAttribute="leading" secondItem="AYN-6c-WEW" secondAttribute="leading" id="jyt-UR-MIf"/>
+                            <constraint firstItem="P6p-N3-A94" firstAttribute="width" secondItem="VMb-mA-6l0" secondAttribute="width" id="ni7-Xd-8fS"/>
+                            <constraint firstItem="5RV-wo-ZWw" firstAttribute="top" secondItem="iz5-Tv-FvL" secondAttribute="bottom" id="o1o-g2-b5v"/>
+                            <constraint firstItem="P6p-N3-A94" firstAttribute="width" secondItem="iz5-Tv-FvL" secondAttribute="width" id="p9s-W8-LN0"/>
+                            <constraint firstAttribute="trailing" secondItem="P6p-N3-A94" secondAttribute="trailing" id="yW1-Uk-JGR"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Skf-bH-mbm"/>
+                    <connections>
+                        <outlet property="aboutButton" destination="iz5-Tv-FvL" id="npV-ij-OIl"/>
+                        <outlet property="colorButton" destination="VMb-mA-6l0" id="B25-Ps-ENT"/>
+                        <outlet property="letterButton" destination="P6p-N3-A94" id="rpe-a2-uuQ"/>
+                        <outlet property="mainView" destination="AYN-6c-WEW" id="xFc-0q-JdN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Dfu-Tj-g2D" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1144" y="-23"/>
+        </scene>
+        <!--Help View Controller-->
+        <scene sceneID="oVW-zk-TCd">
+            <objects>
+                <viewController id="xwH-Hd-xBK" customClass="ZDHelpViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="wpE-kX-uRh"/>
+                        <viewControllerLayoutGuide type="bottom" id="Sd7-Nr-H17"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="unT-Nk-9Nl">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6BY-AW-HFg">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JTn-1p-l1F">
+                                <rect key="frame" x="20" y="84" width="280" height="376"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.71999999999999997" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.99215692280000001" green="0.99607849120000003" blue="0.99215692280000001" alpha="0.53000000000000003" colorSpace="deviceRGB"/>
+                                <string key="text">Swipe left and right on the main screen to switch days and see future or pass bus tickets. This app takes advantage of a pattern used to decide what ticket SHOULD be used next. Every once and a while a random ticket while be picked, so this app won't work every time. The pattern will stay the same. If this happens just go to the settings and update the current color and letter.                       Thanks!</string>
+                                <fontDescription key="fontDescription" name="OriyaSangamMN" family="Oriya Sangam MN" pointSize="19"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="JTn-1p-l1F" secondAttribute="trailing" constant="20" id="0Bz-DH-Fw1"/>
+                            <constraint firstItem="Sd7-Nr-H17" firstAttribute="top" secondItem="JTn-1p-l1F" secondAttribute="bottom" constant="20" id="1TQ-10-vst"/>
+                            <constraint firstItem="JTn-1p-l1F" firstAttribute="top" secondItem="wpE-kX-uRh" secondAttribute="bottom" constant="20" id="2hy-pv-Cwa"/>
+                            <constraint firstItem="JTn-1p-l1F" firstAttribute="leading" secondItem="unT-Nk-9Nl" secondAttribute="leading" constant="20" id="JcY-H3-eM7"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Lbc-1z-cVf"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W39-HZ-d4H" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1144" y="565"/>
+        </scene>
+        <!--Letter Picker-->
+        <scene sceneID="k5x-Md-4M0">
+            <objects>
+                <viewController id="cNP-Sg-gKp" customClass="ZDLetterPicker" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jFs-W2-veR"/>
+                        <viewControllerLayoutGuide type="bottom" id="bt5-Wa-BvD"/>
+                    </layoutGuides>
+                    <view key="view" autoresizesSubviews="NO" contentMode="scaleToFill" id="Ayx-cy-hxW">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k5s-fW-ra4" customClass="ZDFlatButton">
+                                <rect key="frame" x="0.0" y="20" width="160" height="115"/>
+                                <fontDescription key="fontDescription" name="OriyaSangamMN" family="Oriya Sangam MN" pointSize="70"/>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="12" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="A">
+                                    <color key="titleColor" red="0.99607849120000003" green="0.99215692280000001" blue="0.99215692280000001" alpha="1" colorSpace="deviceRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="ButtonPressed:" destination="cNP-Sg-gKp" eventType="touchUpInside" id="A79-p5-C2J"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XFq-6A-JmF" customClass="ZDFlatButton">
+                                <rect key="frame" x="160" y="20" width="160" height="115"/>
+                                <fontDescription key="fontDescription" name="OriyaSangamMN" family="Oriya Sangam MN" pointSize="70"/>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="12" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="D">
+                                    <color key="titleColor" red="0.99607849120000003" green="0.99215692280000001" blue="0.99215692280000001" alpha="1" colorSpace="deviceRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="ButtonPressed:" destination="cNP-Sg-gKp" eventType="touchUpInside" id="MDt-0c-rrV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lHI-kJ-kHj" customClass="ZDFlatButton">
+                                <rect key="frame" x="0.0" y="135" width="160" height="115"/>
+                                <fontDescription key="fontDescription" name="OriyaSangamMN" family="Oriya Sangam MN" pointSize="70"/>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="12" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="H">
+                                    <color key="titleColor" red="0.99607849120000003" green="0.99215692280000001" blue="0.99215692280000001" alpha="1" colorSpace="deviceRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="ButtonPressed:" destination="cNP-Sg-gKp" eventType="touchUpInside" id="bx8-2H-4JM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6PH-MQ-fWj" customClass="ZDFlatButton">
+                                <rect key="frame" x="160" y="135" width="160" height="115"/>
+                                <fontDescription key="fontDescription" name="OriyaSangamMN" family="Oriya Sangam MN" pointSize="70"/>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="12" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="J">
+                                    <color key="titleColor" red="0.99607849120000003" green="0.99215692280000001" blue="0.99215692280000001" alpha="1" colorSpace="deviceRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="ButtonPressed:" destination="cNP-Sg-gKp" eventType="touchUpInside" id="l5R-q1-jrf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VxB-1a-UOf" customClass="ZDFlatButton">
+                                <rect key="frame" x="0.0" y="250" width="160" height="115"/>
+                                <fontDescription key="fontDescription" name="OriyaSangamMN" family="Oriya Sangam MN" pointSize="70"/>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="12" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="N">
+                                    <color key="titleColor" red="0.99607849120000003" green="0.99215692280000001" blue="0.99215692280000001" alpha="1" colorSpace="deviceRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="ButtonPressed:" destination="cNP-Sg-gKp" eventType="touchUpInside" id="3gq-mu-g8U"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nsW-Vu-9cp" customClass="ZDFlatButton">
+                                <rect key="frame" x="160" y="250" width="160" height="115"/>
+                                <fontDescription key="fontDescription" name="OriyaSangamMN" family="Oriya Sangam MN" pointSize="70"/>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="12" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="S">
+                                    <color key="titleColor" red="0.99607849120000003" green="0.99215692280000001" blue="0.99215692280000001" alpha="1" colorSpace="deviceRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="ButtonPressed:" destination="cNP-Sg-gKp" eventType="touchUpInside" id="oVB-24-ezX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ovw-Ob-IX9" customClass="ZDFlatButton">
+                                <rect key="frame" x="0.0" y="365" width="160" height="115"/>
+                                <fontDescription key="fontDescription" name="OriyaSangamMN" family="Oriya Sangam MN" pointSize="70"/>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="12" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="T">
+                                    <color key="titleColor" red="0.99607849120000003" green="0.99215692280000001" blue="0.99215692280000001" alpha="1" colorSpace="deviceRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="ButtonPressed:" destination="cNP-Sg-gKp" eventType="touchUpInside" id="ni1-JN-il6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JYA-Sc-iM7" customClass="ZDFlatButton">
+                                <rect key="frame" x="160" y="365" width="160" height="115"/>
+                                <fontDescription key="fontDescription" name="OriyaSangamMN" family="Oriya Sangam MN" pointSize="70"/>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="12" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="X">
+                                    <color key="titleColor" red="0.99607849120000003" green="0.99215692280000001" blue="0.99215692280000001" alpha="1" colorSpace="deviceRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="ButtonPressed:" destination="cNP-Sg-gKp" eventType="touchUpInside" id="7OI-lF-naq"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ovw-Ob-IX9" firstAttribute="top" secondItem="VxB-1a-UOf" secondAttribute="bottom" id="1kg-ZJ-9LJ"/>
+                            <constraint firstItem="VxB-1a-UOf" firstAttribute="top" secondItem="lHI-kJ-kHj" secondAttribute="bottom" id="4M8-M1-9O4"/>
+                            <constraint firstItem="lHI-kJ-kHj" firstAttribute="width" secondItem="6PH-MQ-fWj" secondAttribute="width" id="5Uo-e4-LGf"/>
+                            <constraint firstAttribute="trailing" secondItem="XFq-6A-JmF" secondAttribute="trailing" id="6jH-Cm-RUz"/>
+                            <constraint firstItem="bt5-Wa-BvD" firstAttribute="top" secondItem="ovw-Ob-IX9" secondAttribute="bottom" id="Afj-rP-abY"/>
+                            <constraint firstItem="bt5-Wa-BvD" firstAttribute="top" secondItem="JYA-Sc-iM7" secondAttribute="bottom" id="Arx-B3-hfd"/>
+                            <constraint firstItem="lHI-kJ-kHj" firstAttribute="height" secondItem="ovw-Ob-IX9" secondAttribute="height" id="AtG-mf-rwy"/>
+                            <constraint firstItem="JYA-Sc-iM7" firstAttribute="top" secondItem="nsW-Vu-9cp" secondAttribute="bottom" id="DHi-vm-knI"/>
+                            <constraint firstItem="lHI-kJ-kHj" firstAttribute="height" secondItem="nsW-Vu-9cp" secondAttribute="height" id="IoM-TD-QfC"/>
+                            <constraint firstItem="XFq-6A-JmF" firstAttribute="leading" secondItem="k5s-fW-ra4" secondAttribute="trailing" id="J03-WP-Kh5"/>
+                            <constraint firstItem="lHI-kJ-kHj" firstAttribute="height" secondItem="JYA-Sc-iM7" secondAttribute="height" id="Ks8-6i-MGR"/>
+                            <constraint firstItem="XFq-6A-JmF" firstAttribute="top" secondItem="Ayx-cy-hxW" secondAttribute="top" constant="20" id="KvK-In-cvo"/>
+                            <constraint firstAttribute="trailing" secondItem="6PH-MQ-fWj" secondAttribute="trailing" id="LsU-gG-yRc"/>
+                            <constraint firstAttribute="trailing" secondItem="JYA-Sc-iM7" secondAttribute="trailing" id="NGz-ME-5g6"/>
+                            <constraint firstItem="nsW-Vu-9cp" firstAttribute="top" secondItem="6PH-MQ-fWj" secondAttribute="bottom" id="QRn-KA-8eV"/>
+                            <constraint firstItem="k5s-fW-ra4" firstAttribute="top" secondItem="Ayx-cy-hxW" secondAttribute="top" constant="20" id="R3d-DZ-8Pt"/>
+                            <constraint firstItem="lHI-kJ-kHj" firstAttribute="top" secondItem="k5s-fW-ra4" secondAttribute="bottom" id="R7g-9v-C6d"/>
+                            <constraint firstItem="lHI-kJ-kHj" firstAttribute="width" secondItem="VxB-1a-UOf" secondAttribute="width" id="S4h-bw-Cxq"/>
+                            <constraint firstItem="6PH-MQ-fWj" firstAttribute="top" secondItem="XFq-6A-JmF" secondAttribute="bottom" id="VYb-t9-Bx9"/>
+                            <constraint firstItem="VxB-1a-UOf" firstAttribute="top" secondItem="lHI-kJ-kHj" secondAttribute="bottom" id="XkR-o8-rpk"/>
+                            <constraint firstItem="lHI-kJ-kHj" firstAttribute="height" secondItem="6PH-MQ-fWj" secondAttribute="height" id="XyC-2Y-53K"/>
+                            <constraint firstItem="VxB-1a-UOf" firstAttribute="leading" secondItem="Ayx-cy-hxW" secondAttribute="leading" id="Yqu-09-DAC"/>
+                            <constraint firstItem="lHI-kJ-kHj" firstAttribute="width" secondItem="k5s-fW-ra4" secondAttribute="width" id="Z5c-lV-G2a"/>
+                            <constraint firstItem="nsW-Vu-9cp" firstAttribute="leading" secondItem="VxB-1a-UOf" secondAttribute="trailing" id="a0Q-w3-9OO"/>
+                            <constraint firstItem="6PH-MQ-fWj" firstAttribute="top" secondItem="XFq-6A-JmF" secondAttribute="bottom" id="a1v-6s-sTK"/>
+                            <constraint firstItem="lHI-kJ-kHj" firstAttribute="top" secondItem="k5s-fW-ra4" secondAttribute="bottom" id="b9G-4J-Op4"/>
+                            <constraint firstItem="ovw-Ob-IX9" firstAttribute="leading" secondItem="Ayx-cy-hxW" secondAttribute="leading" id="bDZ-Fc-4iP"/>
+                            <constraint firstItem="JYA-Sc-iM7" firstAttribute="top" secondItem="nsW-Vu-9cp" secondAttribute="bottom" id="eBG-s1-VCy"/>
+                            <constraint firstItem="nsW-Vu-9cp" firstAttribute="top" secondItem="6PH-MQ-fWj" secondAttribute="bottom" id="f0M-dt-gkM"/>
+                            <constraint firstItem="lHI-kJ-kHj" firstAttribute="width" secondItem="ovw-Ob-IX9" secondAttribute="width" id="fEv-fr-ToC"/>
+                            <constraint firstItem="lHI-kJ-kHj" firstAttribute="height" secondItem="VxB-1a-UOf" secondAttribute="height" id="gh7-1i-zw3"/>
+                            <constraint firstAttribute="trailing" secondItem="nsW-Vu-9cp" secondAttribute="trailing" id="jRp-OQ-5sJ"/>
+                            <constraint firstItem="lHI-kJ-kHj" firstAttribute="width" secondItem="XFq-6A-JmF" secondAttribute="width" id="jq8-Ao-zNU"/>
+                            <constraint firstItem="lHI-kJ-kHj" firstAttribute="width" secondItem="JYA-Sc-iM7" secondAttribute="width" id="lCq-fu-UXV"/>
+                            <constraint firstItem="6PH-MQ-fWj" firstAttribute="leading" secondItem="lHI-kJ-kHj" secondAttribute="trailing" id="oOJ-Et-PZ0"/>
+                            <constraint firstItem="ovw-Ob-IX9" firstAttribute="top" secondItem="VxB-1a-UOf" secondAttribute="bottom" id="s95-Tz-qLc"/>
+                            <constraint firstItem="lHI-kJ-kHj" firstAttribute="height" secondItem="XFq-6A-JmF" secondAttribute="height" id="sVk-fp-g5c"/>
+                            <constraint firstItem="lHI-kJ-kHj" firstAttribute="width" secondItem="nsW-Vu-9cp" secondAttribute="width" id="tB0-eV-nNv"/>
+                            <constraint firstItem="lHI-kJ-kHj" firstAttribute="height" secondItem="k5s-fW-ra4" secondAttribute="height" id="vm3-4r-6U6"/>
+                            <constraint firstItem="JYA-Sc-iM7" firstAttribute="leading" secondItem="ovw-Ob-IX9" secondAttribute="trailing" id="x8U-N7-Ice"/>
+                            <constraint firstItem="k5s-fW-ra4" firstAttribute="leading" secondItem="Ayx-cy-hxW" secondAttribute="leading" id="xlC-4m-qid"/>
+                            <constraint firstItem="lHI-kJ-kHj" firstAttribute="leading" secondItem="Ayx-cy-hxW" secondAttribute="leading" id="zde-Lw-kaR"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="S6g-Xg-DTr"/>
+                    <connections>
+                        <outlet property="buttonA" destination="k5s-fW-ra4" id="FfP-Y4-L6H"/>
+                        <outlet property="buttonD" destination="XFq-6A-JmF" id="Bag-VG-fld"/>
+                        <outlet property="buttonH" destination="lHI-kJ-kHj" id="dQz-jC-CKK"/>
+                        <outlet property="buttonJ" destination="6PH-MQ-fWj" id="o7y-NO-NFn"/>
+                        <outlet property="buttonN" destination="VxB-1a-UOf" id="CBx-bN-jeC"/>
+                        <outlet property="buttonS" destination="nsW-Vu-9cp" id="j4s-TA-nXd"/>
+                        <outlet property="buttonT" destination="ovw-Ob-IX9" id="azx-KF-zIX"/>
+                        <outlet property="buttonX" destination="JYA-Sc-iM7" id="ERJ-j6-rHs"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7xi-db-LQy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1678" y="291"/>
+        </scene>
+        <!--Color Picker Controller-->
+        <scene sceneID="2gO-1l-Bdk">
+            <objects>
+                <viewController id="BPp-sL-ywD" customClass="ZDColorPickerController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="QA7-jL-YOe"/>
+                        <viewControllerLayoutGuide type="bottom" id="BDt-nd-guo"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="qc6-wH-MTg">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9a1-Nd-XDw" customClass="ZDFlatButton">
+                                <rect key="frame" x="0.0" y="24" width="320" height="76"/>
+                                <fontDescription key="fontDescription" name="OriyaSangamMN" family="Oriya Sangam MN" pointSize="52"/>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="12" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="Black">
+                                    <color key="titleColor" red="0.99607849120000003" green="0.99215692280000001" blue="0.99215692280000001" alpha="1" colorSpace="deviceRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="blackButtonPressed:" destination="BPp-sL-ywD" eventType="touchUpInside" id="FHL-vx-3wn"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tEJ-4C-YjH" customClass="ZDFlatButton">
+                                <rect key="frame" x="0.0" y="100" width="320" height="76"/>
+                                <fontDescription key="fontDescription" name="OriyaSangamMN" family="Oriya Sangam MN" pointSize="52"/>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="12" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="Blue">
+                                    <color key="titleColor" red="0.99607849120000003" green="0.99215692280000001" blue="0.99215692280000001" alpha="1" colorSpace="deviceRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="blueButtonPressed:" destination="BPp-sL-ywD" eventType="touchUpInside" id="cuh-rz-nOe"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dhE-Zv-MgZ" customClass="ZDFlatButton">
+                                <rect key="frame" x="0.0" y="176" width="320" height="76"/>
+                                <fontDescription key="fontDescription" name="OriyaSangamMN" family="Oriya Sangam MN" pointSize="52"/>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="12" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="Green">
+                                    <color key="titleColor" red="0.99607849120000003" green="0.99215692280000001" blue="0.99215692280000001" alpha="1" colorSpace="deviceRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="greenButtonPressed:" destination="BPp-sL-ywD" eventType="touchUpInside" id="Hdh-j0-wa9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vpd-h2-jqo" customClass="ZDFlatButton">
+                                <rect key="frame" x="0.0" y="252" width="320" height="91"/>
+                                <fontDescription key="fontDescription" name="OriyaSangamMN" family="Oriya Sangam MN" pointSize="52"/>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="12" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="Orange">
+                                    <color key="titleColor" red="0.99607849120000003" green="0.99215692280000001" blue="0.99215692280000001" alpha="1" colorSpace="deviceRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="orangeButtonPressed:" destination="BPp-sL-ywD" eventType="touchUpInside" id="O7B-mG-0f5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kv7-PB-ddu" customClass="ZDFlatButton">
+                                <rect key="frame" x="0.0" y="388" width="320" height="76"/>
+                                <fontDescription key="fontDescription" name="OriyaSangamMN" family="Oriya Sangam MN" pointSize="52"/>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="12" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="Pink">
+                                    <color key="titleColor" red="0.99607849120000003" green="0.99215692280000001" blue="0.99215692280000001" alpha="1" colorSpace="deviceRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="pinkButtonPressed:" destination="BPp-sL-ywD" eventType="touchUpInside" id="pJe-8V-Rb9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DYv-ue-LcN" customClass="ZDFlatButton">
+                                <rect key="frame" x="0.0" y="479" width="320" height="76"/>
+                                <fontDescription key="fontDescription" name="OriyaSangamMN" family="Oriya Sangam MN" pointSize="52"/>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="12" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="Purple">
+                                    <color key="titleColor" red="0.99607849120000003" green="0.99215692280000001" blue="0.99215692280000001" alpha="1" colorSpace="deviceRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="purpleButtonPressed:" destination="BPp-sL-ywD" eventType="touchUpInside" id="SNX-34-b1K"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="Vpd-h2-jqo" firstAttribute="top" secondItem="dhE-Zv-MgZ" secondAttribute="bottom" id="1PC-zY-Jbh"/>
+                            <constraint firstAttribute="trailing" secondItem="dhE-Zv-MgZ" secondAttribute="trailing" id="4Iq-46-pd3"/>
+                            <constraint firstItem="DYv-ue-LcN" firstAttribute="top" secondItem="Kv7-PB-ddu" secondAttribute="bottom" id="6mY-SB-z7k"/>
+                            <constraint firstAttribute="trailing" secondItem="DYv-ue-LcN" secondAttribute="trailing" id="DSW-5j-Dx4"/>
+                            <constraint firstItem="tEJ-4C-YjH" firstAttribute="top" secondItem="9a1-Nd-XDw" secondAttribute="bottom" id="E3B-OV-DAI"/>
+                            <constraint firstAttribute="trailing" secondItem="9a1-Nd-XDw" secondAttribute="trailing" id="JKS-Cc-76T"/>
+                            <constraint firstItem="Kv7-PB-ddu" firstAttribute="top" secondItem="Vpd-h2-jqo" secondAttribute="bottom" id="Kb1-X4-ANA"/>
+                            <constraint firstItem="tEJ-4C-YjH" firstAttribute="leading" secondItem="qc6-wH-MTg" secondAttribute="leading" id="Kd9-kn-Nl4"/>
+                            <constraint firstAttribute="trailing" secondItem="Kv7-PB-ddu" secondAttribute="trailing" id="Lw7-H5-nS5"/>
+                            <constraint firstItem="dhE-Zv-MgZ" firstAttribute="leading" secondItem="qc6-wH-MTg" secondAttribute="leading" id="PcG-4x-ONY"/>
+                            <constraint firstItem="DYv-ue-LcN" firstAttribute="height" secondItem="Vpd-h2-jqo" secondAttribute="height" id="Sm2-sa-jTC"/>
+                            <constraint firstItem="dhE-Zv-MgZ" firstAttribute="top" secondItem="tEJ-4C-YjH" secondAttribute="bottom" id="TOR-4W-v3k"/>
+                            <constraint firstItem="Vpd-h2-jqo" firstAttribute="top" secondItem="dhE-Zv-MgZ" secondAttribute="bottom" id="Trx-Bu-io0"/>
+                            <constraint firstItem="DYv-ue-LcN" firstAttribute="height" secondItem="tEJ-4C-YjH" secondAttribute="height" id="VzJ-ae-A3P"/>
+                            <constraint firstAttribute="trailing" secondItem="tEJ-4C-YjH" secondAttribute="trailing" id="XxV-Z3-JNB"/>
+                            <constraint firstItem="9a1-Nd-XDw" firstAttribute="top" secondItem="qc6-wH-MTg" secondAttribute="top" constant="24" id="Z1j-8a-ehD"/>
+                            <constraint firstAttribute="trailing" secondItem="Vpd-h2-jqo" secondAttribute="trailing" id="ZiY-Bx-RTx"/>
+                            <constraint firstItem="DYv-ue-LcN" firstAttribute="height" secondItem="dhE-Zv-MgZ" secondAttribute="height" id="a0M-a7-zJS"/>
+                            <constraint firstItem="tEJ-4C-YjH" firstAttribute="top" secondItem="9a1-Nd-XDw" secondAttribute="bottom" id="bsV-q2-ooW"/>
+                            <constraint firstItem="DYv-ue-LcN" firstAttribute="height" secondItem="Kv7-PB-ddu" secondAttribute="height" id="cSw-UY-czB"/>
+                            <constraint firstItem="Kv7-PB-ddu" firstAttribute="top" secondItem="Vpd-h2-jqo" secondAttribute="bottom" id="dUa-k3-aR0"/>
+                            <constraint firstItem="Vpd-h2-jqo" firstAttribute="leading" secondItem="qc6-wH-MTg" secondAttribute="leading" id="fkk-yd-4wb"/>
+                            <constraint firstItem="Kv7-PB-ddu" firstAttribute="leading" secondItem="qc6-wH-MTg" secondAttribute="leading" id="lQW-kG-ZEP"/>
+                            <constraint firstItem="9a1-Nd-XDw" firstAttribute="leading" secondItem="qc6-wH-MTg" secondAttribute="leading" id="nA7-p1-eo6"/>
+                            <constraint firstItem="DYv-ue-LcN" firstAttribute="leading" secondItem="qc6-wH-MTg" secondAttribute="leading" id="nQW-SX-cMs"/>
+                            <constraint firstItem="DYv-ue-LcN" firstAttribute="height" secondItem="9a1-Nd-XDw" secondAttribute="height" id="oQW-VB-HaK"/>
+                            <constraint firstItem="dhE-Zv-MgZ" firstAttribute="top" secondItem="tEJ-4C-YjH" secondAttribute="bottom" id="orh-1Z-l7k"/>
+                            <constraint firstItem="BDt-nd-guo" firstAttribute="top" secondItem="DYv-ue-LcN" secondAttribute="bottom" id="qfP-Ya-yOQ"/>
+                            <constraint firstItem="DYv-ue-LcN" firstAttribute="top" secondItem="Kv7-PB-ddu" secondAttribute="bottom" id="vJi-Mz-f44"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Ra1-67-c2I"/>
+                    <connections>
+                        <outlet property="blackButton" destination="9a1-Nd-XDw" id="kRW-jX-1Xm"/>
+                        <outlet property="blueButton" destination="tEJ-4C-YjH" id="LWx-if-rii"/>
+                        <outlet property="greenButton" destination="dhE-Zv-MgZ" id="lGB-gq-eU8"/>
+                        <outlet property="mainView" destination="qc6-wH-MTg" id="edG-nd-2J9"/>
+                        <outlet property="orangeButton" destination="Vpd-h2-jqo" id="HrU-Sc-u64"/>
+                        <outlet property="pinkButton" destination="Kv7-PB-ddu" id="lww-tq-YV6"/>
+                        <outlet property="purpleButton" destination="DYv-ue-LcN" id="YY7-j1-c3L"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BXx-Ds-edH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1678" y="-266"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Yzd-8a-K08">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="DaV-uw-eTv" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="DBE-GW-teD">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="xsq-bJ-V4e" kind="relationship" relationship="rootViewController" id="9C2-Nx-KQc"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="o6f-HV-fPt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="208" y="-36"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="settings.png" width="600" height="589"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>
