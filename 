@@ -1,0 +1,99 @@
+
+#Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch is up-to-date with 'origin/master'.
+#
+# Changes to be committed:
+	modified:   Transfer.xcodeproj/project.pbxproj
+	new file:   Transfer.xcodeproj/project.xcworkspace/xcuserdata/zach.xcuserdatad/WorkspaceSettings.xcsettings
+	new file:   Transfer.xcodeproj/xcuserdata/zach.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist
+#	modified:   Transfer.xcodeproj/xcuserdata/zach.xcuserdatad/xcschemes/Transfer.xcscheme
+#	new file:   Transfer/29.png
+#	new file:   Transfer/40.png
+#	new file:   Transfer/60.png
+#	deleted:    Transfer/Base.lproj/Main.storyboard
+#	new file:   Transfer/Data.plist
+#	new file:   Transfer/Images.xcassets/AppIcon.appiconset/AppIcon29x29-1.png
+#	new file:   Transfer/Images.xcassets/AppIcon.appiconset/AppIcon29x29.png
+#	new file:   Transfer/Images.xcassets/AppIcon.appiconset/AppIcon29x29@2x-1.png
+#	new file:   Transfer/Images.xcassets/AppIcon.appiconset/AppIcon29x29@2x.png
+#	new file:   Transfer/Images.xcassets/AppIcon.appiconset/AppIcon40x40.png
+#	new file:   Transfer/Images.xcassets/AppIcon.appiconset/AppIcon40x40@2x.png
+#	new file:   Transfer/Images.xcassets/AppIcon.appiconset/AppIcon50x50.png
+#	new file:   Transfer/Images.xcassets/AppIcon.appiconset/AppIcon50x50@2x.png
+#	new file:   Transfer/Images.xcassets/AppIcon.appiconset/AppIcon57x57.png
+#	new file:   Transfer/Images.xcassets/AppIcon.appiconset/AppIcon57x57@2x.png
+#	new file:   Transfer/Images.xcassets/AppIcon.appiconset/AppIcon60x60@2x.png
+#	new file:   Transfer/Images.xcassets/AppIcon.appiconset/AppIcon72x72.png
+#	new file:   Transfer/Images.xcassets/AppIcon.appiconset/AppIcon72x72@2x.png
+#	new file:   Transfer/Images.xcassets/AppIcon.appiconset/AppIcon76x76.png
+#	new file:   Transfer/Images.xcassets/AppIcon.appiconset/AppIcon76x76@2x.png
+#	modified:   Transfer/Images.xcassets/AppIcon.appiconset/Contents.json
+#	new file:   Transfer/Images.xcassets/AppIcon29x29.imageset/Contents.json
+#	modified:   Transfer/Images.xcassets/LaunchImage.launchimage/Contents.json
+#	new file:   Transfer/Images.xcassets/LaunchImage.launchimage/Splash.png
+#	new file:   Transfer/Images.xcassets/LaunchImage.launchimage/SplashRetina.png
+#	new file:   Transfer/Images.xcassets/Splash.imageset/Contents.json
+#	new file:   Transfer/Images.xcassets/SplashRetina.imageset/Contents.json
+#	new file:   Transfer/Images.xcassets/iTunesArtwork.imageset/Contents.json
+#	new file:   Transfer/Images.xcassets/iTunesArtwork.imageset/iTunesArtwork.png
+#	new file:   Transfer/Images.xcassets/iTunesArtwork.imageset/iTunesArtwork@2x.png
+#	new file:   Transfer/Main.storyboard
+#	new file:   Transfer/Resources/Fonts/Prosto.ttf
+#	new file:   Transfer/Resources/Images/1024.jpg
+#	new file:   Transfer/Resources/Images/App Icon Template [3.3].atn
+#	new file:   Transfer/Resources/Images/App Icon Template [3.3].psd
+#	new file:   Transfer/Resources/Images/Default.png
+#	new file:   Transfer/Resources/Images/Screen Shot 3.5.png
+#	new file:   Transfer/Resources/Images/Screen Shot 4.png
+#	new file:   Transfer/Resources/Images/Splash.png
+#	new file:   Transfer/Resources/Images/Splash.psd
+#	new file:   Transfer/Resources/Images/SplashRetina.png
+#	new file:   Transfer/Resources/Images/SplashRetina.psd
+#	modified:   Transfer/Transfer-Info.plist
+#	new file:   Transfer/Untitled-1.psd
+#	modified:   Transfer/ZDAppDelegate.h
+#	modified:   Transfer/ZDAppDelegate.m
+#	new file:   Transfer/ZDColor.h
+#	new file:   Transfer/ZDColor.m
+#	new file:   Transfer/ZDColorOrLetterPicker.h
+#	new file:   Transfer/ZDColorOrLetterPicker.m
+#	new file:   Transfer/ZDColorPickerController.h
+#	new file:   Transfer/ZDColorPickerController.m
+#	new file:   Transfer/ZDDate.h
+#	new file:   Transfer/ZDDate.m
+#	new file:   Transfer/ZDFlatButton.h
+#	new file:   Transfer/ZDFlatButton.m
+#	new file:   Transfer/ZDHelpViewController.h
+#	new file:   Transfer/ZDHelpViewController.m
+#	new file:   Transfer/ZDLetterPicker.h
+#	new file:   Transfer/ZDLetterPicker.m
+#	new file:   Transfer/ZDTableView.h
+#	new file:   Transfer/ZDTableView.m
+#	new file:   Transfer/ZDTableViewPicker.h
+#	new file:   Transfer/ZDTableViewPicker.m
+#	new file:   Transfer/ZDTransferBook.h
+#	new file:   Transfer/ZDTransferBook.m
+#	new file:   Transfer/ZDTransferTicket.h
+#	new file:   Transfer/ZDTransferTicket.m
+#	new file:   Transfer/ZDTutorialViewController.xib
+#	modified:   Transfer/ZDViewController.h
+#	modified:   Transfer/ZDViewController.m
+#	new file:   Transfer/settings copy.psd
+#	new file:   Transfer/settings.png
+#	new file:   Transfer/settings.psd
+#	new file:   ZDTableViewController.h
+#	new file:   ZDTableViewController.m
+#	new file:   readme.rtf
+#	new file:   tut/final.png
+#	new file:   tut/final.psd
+#	new file:   tut/first.png
+#	new file:   tut/first.psd
+#	new file:   tut/good.png
+#	new file:   tut/good.psd
+#	new file:   tut/welcome.png
+#	new file:   tut/welcome.psd
+#	new file:   tut/wrongWay.png
+#	new file:   tut/wrongWay.psd
+#
